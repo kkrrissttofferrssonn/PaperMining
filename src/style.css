@@ -5,8 +5,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: forestgreen;
+  color: rgba(228, 18, 18, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,9 +33,10 @@ a:hover {
 }
 
 body {
+  background-color: lightblue;
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: center start;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -70,6 +70,9 @@ button:focus-visible {
 }
 
 #app {
+  background-color: green;
+  display: flex;
+  place-items: center end;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;

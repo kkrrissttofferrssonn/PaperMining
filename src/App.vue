@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
+  <div class="thing">hey</div>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -15,6 +16,9 @@ import HelloWorld from './components/HelloWorld.vue';
 </template>
 
 <style scoped>
+.thing {
+  background-color: red;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
